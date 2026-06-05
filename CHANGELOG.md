@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-04 - Minor improvements
+
+- Added support for hourly forecast granularity in `/forecast` endpoint
+- Improved geolocation fallback when city name lookup returns ambiguous results
+- Fixed off-by-one error in 7-day forecast date range calculation
+- Added `X-Cache-Status` response header to indicate cache hit/miss
+
 ## 2026-06-01 - Minor improvements
 
 - Added caching layer for frequently requested city forecasts
