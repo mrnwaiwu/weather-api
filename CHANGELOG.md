@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-08 - Minor improvements
+
+- Added wind speed and direction fields to `/current` endpoint response
+- Improved UV index calculation accuracy for high-altitude locations
+- Fixed response caching bug that occasionally served stale data after TTL expiry
+- Added `units` query parameter support for imperial/metric toggling per request
+
 ## 2026-06-04 - Minor improvements
 
 - Added support for hourly forecast granularity in `/forecast` endpoint
