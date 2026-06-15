@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-15 - Minor improvements
+
+- Added sunset/sunrise times to `/current` endpoint response
+- Improved precipitation probability calculation for coastal regions
+- Fixed edge case where negative humidity values appeared in dry desert zones
+- Added `lang` query parameter for localized weather condition descriptions
+
 ## 2026-06-08 - Minor improvements
 
 - Added wind speed and direction fields to `/current` endpoint response
