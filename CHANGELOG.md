@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-18 - Minor improvements
+
+- Added `air_quality` index field to `/current` endpoint response
+- Improved forecast confidence scoring for rapidly changing frontal systems
+- Fixed incorrect "feels like" temperature when wind chill and heat index overlap
+- Added retry-with-backoff for transient upstream provider timeouts
+
 ## 2026-06-15 - Minor improvements
 
 - Added sunset/sunrise times to `/current` endpoint response
