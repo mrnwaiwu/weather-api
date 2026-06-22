@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-22 - Minor improvements
+
+- Added `pressure_trend` field to `/current` endpoint response (rising/falling/steady)
+- Improved forecast accuracy for mountainous regions with elevation-adjusted temperature modeling
+- Fixed bug where `lang=es` parameter occasionally returned English condition descriptions
+- Added response compression (gzip) for `/forecast` endpoint to reduce payload size
+
 ## 2026-06-18 - Minor improvements
 
 - Added `air_quality` index field to `/current` endpoint response
