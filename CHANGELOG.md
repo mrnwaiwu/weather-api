@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-26 - Minor improvements
+
+- Added `visibility` field (km/miles) to `/current` endpoint response
+- Improved storm alert integration to include NWS advisory severity levels
+- Fixed race condition in concurrent forecast cache refresh under high load
+- Added `dew_point` field to hourly forecast to support comfort index calculations
+
 ## 2026-06-22 - Minor improvements
 
 - Added `pressure_trend` field to `/current` endpoint response (rising/falling/steady)
