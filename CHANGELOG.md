@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-29 - Minor improvements
+
+- Added `moon_phase` field to `/forecast` endpoint response for astronomy-aware clients
+- Improved pollen count integration with regional allergen data providers
+- Fixed edge case where tropical storm alerts were not propagated to affected coastal zones
+- Added `feels_like_night` field to overnight forecast periods for improved comfort scoring
+
 ## 2026-06-26 - Minor improvements
 
 - Added `visibility` field (km/miles) to `/current` endpoint response
