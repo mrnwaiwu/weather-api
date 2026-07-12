@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-07-12 - Minor improvements
+
+- Added `heat_index_category` field to `/current` endpoint response (safe/caution/danger/extreme)
+- Improved severe weather alert deduplication when multiple overlapping advisories are active
+- Fixed timezone rollover bug that shifted sunrise/sunset times by one day near the International Date Line
+- Added `precip_type` field (rain/snow/sleet/freezing) to hourly forecast periods
+
 ## 2026-06-29 - Minor improvements
 
 - Added `moon_phase` field to `/forecast` endpoint response for astronomy-aware clients
