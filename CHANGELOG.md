@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-07-15 - Minor improvements
+
+- Added `lightning_strike_distance` field to `/current` endpoint for storm proximity awareness
+- Improved radar tile caching to reduce redundant tile fetches during rapid map panning
+- Fixed off-by-one in hourly forecast window when request spans a DST boundary
+- Added `cloud_cover_pct` field to hourly forecast periods for solar generation use cases
+
 ## 2026-07-12 - Minor improvements
 
 - Added `heat_index_category` field to `/current` endpoint response (safe/caution/danger/extreme)
